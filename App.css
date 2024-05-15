@@ -1,0 +1,80 @@
+body {
+  background: #e8e7e7;
+  font-family: arial;
+  text-transform: uppercase;
+}
+
+header {
+  color: #fff;
+  padding: 5px 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  background-color: #7eb8f1;
+  border-bottom: solid 2px #d4caff;
+  width: 80%;
+  margin: 30px auto;
+}
+
+header h1 {
+  flex-grow: 1;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+
+button {
+  outline: none;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+fieldset{
+  padding: 5px 10px;
+  text-align: center;
+  background-color: #7eb8f1;
+  border-bottom: solid 2px #d4caff;
+}
+
+.formField{
+  margin: 10px;
+}
+
+/* COMPONENT STYLES -------------------- */
+
+.filter-search {
+  text-align: center;
+  width: 80%;
+  margin: 30px auto;
+}
+
+.add-form {
+  text-align: center;
+  width: 80%;
+  margin: 30px auto;
+}
+
+.task {
+  /* display: flex; */
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  /* width: 80%; */
+  /* margin: 30px auto; */
+  padding: 20px;
+}
+
+.main-content{
+  text-align: center;
+  /* width: 80%; */
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #282d32; */
+}
+
+
+.active {
+  background-color: #04aa6d;
+}
